@@ -45,7 +45,7 @@ If thresholds are exceeded, notifications are triggered to alert operational sta
 # Event‑Driven Workflow Automation Pattern
 ## Microsoft Power Platform Architecture Case Study
 **Technology Stack:** Microsoft 365, Power Platform, Low‑Code Automation
-**Additional Case Study notes available in architecture/workflow-automation-case-study
+
 ---
 
 # Overview
@@ -55,6 +55,8 @@ This document describes a reusable architecture pattern for building an **event�
 The pattern demonstrates how operational processes that rely heavily on email, spreadsheets, and manual coordination can be transformed into structured workflow systems with automated routing, metadata enrichment, and operational reporting.
 
 This portfolio document intentionally describes the **architecture pattern only**, rather than any specific organizational implementation.
+
+Additional notes regarding this case study are available at architecture/workflow-automation-case-study. This added document provides a more in-depth view into the workflow. 
 
 ---
 
