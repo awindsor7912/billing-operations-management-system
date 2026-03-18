@@ -45,7 +45,6 @@ If thresholds are exceeded, notifications are triggered to alert operational sta
 # Event‑Driven Workflow Automation Pattern
 ## Microsoft Power Platform Architecture Case Study
 **Technology Stack:** Microsoft 365, Power Platform, Low‑Code Automation
-
 **Additional Case Study notes available in architecture/workflow-automation-case-study
 ---
 
