@@ -46,7 +46,7 @@ If thresholds are exceeded, notifications are triggered to alert operational sta
 ## Microsoft Power Platform Architecture Case Study
 **Technology Stack:** Microsoft 365, Power Platform, Low‑Code Automation
 
-Additional Case Study notes available in architecture/workflow-automation-case-study
+**Additional Case Study notes available in architecture/workflow-automation-case-study
 ---
 
 # Overview
