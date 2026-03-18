@@ -40,10 +40,12 @@ Automations monitor production timelines and track the number of days since the 
 
 If thresholds are exceeded, notifications are triggered to alert operational staff.
 
+
+
 # Event‑Driven Workflow Automation Pattern
 ## Microsoft Power Platform Architecture Case Study
 **Technology Stack:** Microsoft 365, Power Platform, Low‑Code Automation
-
+***Additional Case Study notes available in architecture/workflow-automation-case-study
 ---
 
 # Overview
