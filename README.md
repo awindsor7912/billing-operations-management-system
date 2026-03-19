@@ -1,107 +1,23 @@
-# Billing Operations Management System (BOMS) 
-Architecture and documentation for an automation platform that transforms inbox-driven billing workflows into a structured operational system using Microsoft Power Platform.
+# Billing Operations Management System (BOMS)
+**An Event-Driven Workflow Orchestration Engine for Enterprise Billing Operations.**
 
-## Overview
+## 📑 Executive Summary
+[cite_start]BOMS is a state-based workflow management system designed to centralize and automate the high-volume billing lifecycle[cite: 932, 1060]. [cite_start]By transitioning from unstructured, inbox-driven processes to a structured automation engine, the system establishes a single source of truth for operational data, significantly reducing administrative overhead and improving compliance visibility[cite: 935, 938, 1063, 1064].
 
-The Billing Operations Management System (BOMS) is an automation platform designed to transform high-volume inbox-driven billing operations into a structured workflow system.
+## 📉 The Business Problem
+[cite_start]Prior to implementation, operations relied on manual email tracking and fragmented spreadsheet lookups, resulting in: [cite: 933, 1061, 1066]
+* [cite_start]**Operational Clutter:** High email volumes inhibited workload transparency[cite: 934, 1067, 1070].
+* [cite_start]**Inefficient Filtering:** Manual Excel report filtering consumed significant specialist time[cite: 1068, 1090].
+* [cite_start]**Compliance Risk:** Tracking critical processing thresholds (e.g., LPD Days < 30) required manual monitoring[cite: 1071].
 
-The platform replaces manual report filtering and spreadsheet tracking with automated intake, intelligent routing, structured workflow states, and operational dashboards.
+## 🚀 The Solution: Event-Driven Automation
+[cite_start]BOMS utilizes a modular, layered architecture built on the **Microsoft Power Platform** to automate the intake-to-archive lifecycle: [cite: 936, 940, 1080]
+* [cite_start]**Intelligent Intake:** Automated parsing of inbound requests into structured records[cite: 1081].
+* [cite_start]**State-Based Routing:** Dynamic assignment of work items based on regional configuration[cite: 1082].
+* [cite_start]**Data Enrichment:** Real-time matching against enterprise semantic models to populate financial metadata[cite: 1083, 1084].
+* [cite_start]**Operational Analytics:** Power BI dashboards provide real-time visibility into backlog and production metrics[cite: 1085].
 
-The system was built using Microsoft Power Platform technologies including SharePoint Online, Power Automate, and Power BI.
-
----
-
-## 📚 Documentation Directory
-Explore the technical architecture and workflow design of this system by clicking through the documentation below:
-
-* 🏗️ **[System Architecture](system-architecture.md)** - Overview of the input, automation, workflow data, and analytics layers.
-* ⚙️ **[Automation Architecture](automation-architecture.md)** - Core functions, routing engine logic, and compliance monitoring.
-* 🔄 **[Data Flow](data-flow.md)** - The sequence of operations from email intake to operational analytics.
-* 📊 **[Reporting Dashboard](reporting-dashboard.md)** - Capabilities and benefits of the Power BI operational visibility layer.
-* 📋 **[Billing Workflow](billing-workflow.md)** - The structured operational process and workflow stages.
-* 🚦 **[Workflow State Model](workflow-state-model.md)** - Lifecycle stages and definitions from intake to completion.
-* 🛡️ **[Automation Governance](automation-governance.md)** - Principles and responsibilities for maintaining workflow automations.
-* 🗄️ **[Data Retention Policy](retention-policy.md)** - Lifecycle management and automated cleanup of workflow records.
-* 🗺️ **[System Roadmap](system-roadmap.md)** - Phased rollout from foundation to system maturity.
-
----
-
-## Operational Problem
-
-Before this system was implemented, billing specialists processed large volumes of production reports through individual email inboxes.
-
-This created several operational challenges:
-
-• high manual administrative workload  
-• daily Excel filtering to identify priorities  
-• limited supervisor visibility into workload distribution  
-• manual compliance monitoring  
-• inconsistent tracking of production timelines 
-
-These inefficiencies made it difficult to scale operations while maintaining compliance with billing deadlines.
-
----
-
-## Solution
-
-The BOMS platform converts the inbox-based process into a structured operational workflow system.
-
-Core components include:
-
-• automated email intake  
-• structured report parsing  
-• intelligent routing logic  
-• workflow state management  
-• compliance monitoring automation  
-• real-time operational dashboards
-
-This approach creates a centralized operational system that improves efficiency and visibility across the billing team.
-
----
-
-## Impact
-
-The automation platform produced measurable improvements in operational efficiency.
-
-Key outcomes include:
-
-• elimination of repetitive Excel filtering processes  
-• automation of report intake and routing  
-• improved supervisor visibility into workload distribution  
-• centralized operational tracking
-
-The system reduced manual administrative workload by more than **25 hours per week across the billing team**.
-
----
-
-## Technology Stack
-
-Microsoft Power Automate  
-SharePoint Online  
-Power BI  
-Microsoft Power Platform
-
----
-
-## System Architecture
-
-Operational Emails  
-↓  
-Power Automate Intake Automation  
-↓  
-SharePoint Workflow Lists  
-↓  
-Structured Workflow States  
-↓  
-Power BI Operational Dashboards
-
----
-
-## Future Enhancements
-
-Planned enhancements include:
-
-• configuration-driven routing rules  (COMPLETED)
-• centralized automation logging  
-• enhanced governance framework  
-• expanded operational analytics
+## 📈 Measurable Impact
+* [cite_start]**Efficiency:** Estimated **25+ hours saved per week per specialist**[cite: 928, 1046, 1089].
+* [cite_start]**Accuracy:** Significant reduction in data entry errors via automated enrichment[cite: 938, 1048, 1092].
+* [cite_start]**Oversight:** 100% transparency into workload distribution for supervisory review[cite: 1050, 1095].
