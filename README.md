@@ -1,6 +1,8 @@
 # Billing Operations Management System (BOMS)
 **An Event-Driven Workflow Orchestration Engine for Enterprise Billing Operations.**
 
+![BOMS BANNER](BOMS.jpg)
+
 ## 📑 Executive Summary
 BOMS is a state-based workflow management system designed to centralize and automate the high-volume billing lifecycle. By transitioning from unstructured, inbox-driven processes to a structured automation engine, the system establishes a single source of truth for operational data, significantly reducing administrative overhead and improving compliance visibility.
 
