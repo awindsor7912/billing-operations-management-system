@@ -1,3 +1,8 @@
+---
+layout: default
+title: Operational Reporting
+nav_order: 2
+---
 # Operational Reporting
 
 ## Overview
