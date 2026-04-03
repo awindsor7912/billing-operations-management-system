@@ -1,198 +1,284 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Billing Operations Management System (BOMS) | Ashley Windsor</title>
-  <meta name="description" content="Workflow automation project focused on billing process standardization, visibility, and reduced manual workload.">
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-shell">
-      <a class="brand" href="https://awindsor7912.github.io/">
+---
+layout: default
+title: Billing Operations Management System (BOMS)
+permalink: /
+---
+
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="https://awindsor7912.github.io/#home">
+      <span class="brand-mark">AW</span>
+      <span class="brand-text">Ashley Windsor | Operations &amp; Analytics Portfolio</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a class="nav-link" href="https://awindsor7912.github.io/#home">Home</a>
+      <a class="nav-link nav-link-active" href="https://awindsor7912.github.io/billing-operations-management-system/">BOMS</a>
+      <a class="nav-link" href="https://awindsor7912.github.io/equipment-management-portal/">EMP</a>
+      <a class="nav-link" href="https://awindsor7912.github.io/Operations-Analytics-Portfolio/">Analytics</a>
+      <a class="nav-link" href="https://awindsor7912.github.io/the-master-s-loom/">Loom</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="project-hero">
+    <div class="project-hero-media">
+      <img src="BOMS.jpg" alt="Billing Operations Management System summary visual">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container project-hero-content">
+      <div class="hero-copy">
+        <span class="section-kicker">Workflow Automation System</span>
+        <h1>Billing Operations Management System (BOMS)</h1>
+        <p class="hero-lead">
+          Centralized workflow control platform designed to standardize billing operations, reduce manual administrative effort, and improve visibility into workflow status, ownership, and deadline performance.
+        </p>
+        <p class="hero-support">
+          Positioned as an operational control and workflow automation solution built on process structure, repeatability, and measurable reduction in manual work rather than UI-first presentation.
+        </p>
+
+        <div class="button-row">
+          <a class="button button-primary" href="https://github.com/awindsor7912/billing-operations-management-system" target="_blank" rel="noopener noreferrer">View Source</a>
+          <a class="button button-secondary" href="https://awindsor7912.github.io/#home">Back to Home</a>
+        </div>
+      </div>
+
+      <aside class="hero-summary-card">
+        <span class="summary-label">Project Snapshot</span>
+
+        <div class="summary-item">
+          <span class="summary-key">Platform</span>
+          <span class="summary-value">SharePoint + Power Automate</span>
+        </div>
+
+        <div class="summary-item">
+          <span class="summary-key">Measured Impact</span>
+          <span class="summary-value">~60% reduction in manual processing</span>
+        </div>
+
+        <div class="summary-item">
+          <span class="summary-key">Time Savings</span>
+          <span class="summary-value">~25+ hours saved per week</span>
+        </div>
+
+        <div class="summary-item">
+          <span class="summary-key">Core Focus</span>
+          <span class="summary-value">Workflow control, process standardization, operational visibility</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="container">
+      <div class="metrics-grid">
+        <article class="metric-card">
+          <span class="metric-value">~60%</span>
+          <span class="metric-label">Manual processing reduction</span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-value">25+</span>
+          <span class="metric-label">Hours saved per week</span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-value">Centralized</span>
+          <span class="metric-label">Workflow status and ownership tracking</span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-value">Automated</span>
+          <span class="metric-label">Routing, notifications, and task progression</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Business Context</span>
+        <h2>Business Issues Addressed</h2>
+        <p>
+          BOMS was designed to replace fragmented billing coordination with a structured operational model that improves control, consistency, and execution transparency.
+        </p>
+      </div>
+
+      <div class="split-grid">
+        <article class="content-card">
+          <h3>Primary Business Issues</h3>
+          <ul>
+            <li>Fragmented billing workflow tracking across email, spreadsheets, and manual follow-up</li>
+            <li>Inconsistent process execution caused by unclear ownership and stage handling</li>
+            <li>High administrative workload tied to repetitive filtering, routing, and monitoring tasks</li>
+            <li>Increased risk of delays, rework, and missed compliance-related deadlines</li>
+          </ul>
+        </article>
+
+        <article class="content-card">
+          <h3>Operational Consequences</h3>
+          <ul>
+            <li>Limited real-time visibility into backlog, status, and assignment distribution</li>
+            <li>Reactive handling of issues instead of controlled workflow progression</li>
+            <li>Reduced accountability due to disconnected work tracking methods</li>
+            <li>Higher dependency on manual specialist effort for process continuity</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-surface">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">System Design</span>
+        <h2>Solution Architecture</h2>
+        <p>
+          The system introduces structured workflow stages, centralized work tracking, and automation-driven task movement so billing operations can run through a more repeatable and controlled model.
+        </p>
+      </div>
+
+      <div class="split-grid">
+        <article class="content-card">
+          <h3>Architecture Direction</h3>
+          <p>
+            BOMS centralizes billing work into a single operating framework where task status, ownership, deadlines, and processing state are visible and actionable from one controlled environment.
+          </p>
+          <ul>
+            <li>Stage-based workflow execution</li>
+            <li>Rule-driven task progression</li>
+            <li>Automated notifications and reminders</li>
+            <li>Centralized record visibility for operational review</li>
+          </ul>
+        </article>
+
+        <article class="content-card">
+          <h3>Delivery Model</h3>
+          <p>
+            Built around Microsoft Power Platform components to support workflow orchestration, structured record handling, and repeatable operational administration without relying on disconnected manual tracking.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Workflow Automation</span>
+            <span class="tag">Process Control</span>
+            <span class="tag">Operational Visibility</span>
+            <span class="tag">Power Platform</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Capability Areas</span>
+        <h2>System Capabilities</h2>
+        <p>
+          The project was built around standardized execution, reduced manual effort, and stronger operational accountability.
+        </p>
+      </div>
+
+      <div class="capabilities-grid">
+        <article class="capability-card">
+          <h3>Structured Workflow Execution</h3>
+          <p>Billing tasks were reorganized into defined workflow stages with clearer handling logic and reduced ambiguity.</p>
+        </article>
+
+        <article class="capability-card">
+          <h3>Process Automation</h3>
+          <p>Routine administrative actions were automated so analyst effort could be redirected toward validation and exception handling.</p>
+        </article>
+
+        <article class="capability-card">
+          <h3>Operational Visibility</h3>
+          <p>Centralized tracking improved status monitoring, assignment transparency, and deadline awareness across active work.</p>
+        </article>
+
+        <article class="capability-card">
+          <h3>Control and Accountability</h3>
+          <p>Standardized workflow handling improved consistency, ownership clarity, and supervisory oversight.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-surface">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Measured Results</span>
+        <h2>Impact</h2>
+        <p>
+          The primary value of BOMS is operational: measurable reduction in manual workload, stronger control over workflow execution, and improved transparency into active billing work.
+        </p>
+      </div>
+
+      <div class="split-grid">
+        <article class="content-card">
+          <h3>Efficiency Outcomes</h3>
+          <ul>
+            <li>Estimated reduction of manual processing by approximately 60%</li>
+            <li>Time savings of approximately 25+ hours per week</li>
+            <li>Reduced repetitive administrative handling</li>
+          </ul>
+        </article>
+
+        <article class="content-card">
+          <h3>Control Outcomes</h3>
+          <ul>
+            <li>Improved consistency in process execution</li>
+            <li>Better visibility into workload distribution and deadlines</li>
+            <li>Stronger accountability through centralized workflow ownership</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Project Navigation</span>
+        <h2>Source and Portfolio Links</h2>
+        <p>Move to the broader portfolio or review the full repository directly.</p>
+      </div>
+
+      <div class="split-grid">
+        <article class="content-card">
+          <h3>Main Portfolio</h3>
+          <p>Return to the primary portfolio landing page.</p>
+          <div class="project-links">
+            <a href="https://awindsor7912.github.io/#home">Go to Home</a>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <h3>Source Repository</h3>
+          <p>Review the repository and supporting documentation directly on GitHub.</p>
+          <div class="project-links">
+            <a href="https://github.com/awindsor7912/billing-operations-management-system" target="_blank" rel="noopener noreferrer">Open GitHub Repo</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-shell">
+    <div>
+      <a class="brand" href="https://awindsor7912.github.io/#home">
         <span class="brand-mark">AW</span>
         <span class="brand-text">Ashley Windsor | Operations &amp; Analytics Portfolio</span>
       </a>
-
-      <nav class="site-nav" aria-label="Primary">
-        <a href="https://awindsor7912.github.io/" class="nav-link">Home</a>
-        <a href="https://awindsor7912.github.io/billing-operations-management-system/" class="nav-link nav-link-active">BOMS</a>
-        <a href="https://awindsor7912.github.io/equipment-management-portal/" class="nav-link">EMP</a>
-        <a href="https://awindsor7912.github.io/Operations-Analytics-Portfolio/" class="nav-link">Analytics</a>
-        <a href="https://awindsor7912.github.io/the-master-s-loom/" class="nav-link">Loom</a>
-      </nav>
+      <p>Billing workflow automation, process control, and operational visibility.</p>
     </div>
-  </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="container page-hero-shell">
-        <div class="hero-panel">
-          <span class="kicker">Workflow Automation Project</span>
-          <h1>Billing Operations Management System (BOMS)</h1>
-          <p>
-            Centralized workflow system built to reduce manual billing administration, standardize process execution,
-            and improve visibility into workflow status, ownership, and deadlines.
-          </p>
-          <p>
-            This project is positioned as an operational control and workflow automation solution rather than a UI-first tool.
-            The core value is process structure, repeatability, visibility, and measurable reduction in manual workload.
-          </p>
-
-          <div class="button-row">
-            <a class="button button-primary" href="https://github.com/awindsor7912/billing-operations-management-system">View Source</a>
-            <a class="button button-secondary" href="https://awindsor7912.github.io/">Back to Home</a>
-          </div>
-        </div>
-
-        <aside class="hero-side-panel">
-          <div>
-            <h3>Project Snapshot</h3>
-            <p>SharePoint + Power Automate workflow system built around billing operations process control.</p>
-          </div>
-
-          <div class="hero-stat-list">
-            <div class="hero-stat">
-              <span class="hero-stat-label">Measured Impact</span>
-              <span class="hero-stat-value">~60% reduction in manual processing</span>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-label">Time Savings</span>
-              <span class="hero-stat-value">~25+ hours saved per week</span>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-label">Core Tools</span>
-              <span class="hero-stat-value">SharePoint · Power Automate · Power Platform</span>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-kicker">Overview</span>
-          <h2>What the project solves</h2>
-          <p>Designed to replace fragmented manual billing tracking with a more structured, centralized workflow model.</p>
-        </div>
-
-        <div class="card-grid">
-          <article class="content-card">
-            <h3>Business problem</h3>
-            <p>
-              Billing workflows relied on manual coordination, inconsistent status tracking, and repetitive administrative effort.
-              That increased the risk of delays, rework, and reduced visibility into execution.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <h3>Solution direction</h3>
-            <p>
-              BOMS centralized tracking and automated key process steps so work could move through a more reliable structure
-              with clearer ownership and improved transparency.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-kicker">Approach</span>
-          <h2>Implementation themes</h2>
-          <p>Built around standardization, automation, and operational visibility.</p>
-        </div>
-
-        <div class="card-grid">
-          <article class="content-card">
-            <div class="card-meta">
-              <span class="tag">Workflow Design</span>
-              <span class="tag">Standardization</span>
-            </div>
-            <h3>Structured process execution</h3>
-            <p>
-              Billing tasks were reframed into defined workflow stages with clearer handling logic and reduced ambiguity.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <div class="card-meta">
-              <span class="tag">Automation</span>
-              <span class="tag">Power Automate</span>
-            </div>
-            <h3>Reduced repetitive work</h3>
-            <p>
-              Routine administrative actions were automated so time could be redirected toward validation and exception handling.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <div class="card-meta">
-              <span class="tag">Visibility</span>
-              <span class="tag">Control</span>
-            </div>
-            <h3>Improved workflow transparency</h3>
-            <p>
-              Centralized tracking made workflow status, ownership, and deadlines more visible across operational work.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <div class="card-meta">
-              <span class="tag">Operational Impact</span>
-              <span class="tag">Efficiency</span>
-            </div>
-            <h3>Measurable results</h3>
-            <ul>
-              <li>Reduced manual processing time by approximately 60%.</li>
-              <li>Saved an estimated 25+ hours per week.</li>
-              <li>Improved consistency, accountability, and workflow control.</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-kicker">Links</span>
-          <h2>Project navigation</h2>
-          <p>Move through the broader portfolio or review source material.</p>
-        </div>
-
-        <div class="contact-grid">
-          <article class="contact-card">
-            <h3>Main Portfolio</h3>
-            <p>Return to the portfolio landing page.</p>
-            <a href="https://awindsor7912.github.io/">Go to Home</a>
-          </article>
-
-          <article class="contact-card">
-            <h3>Source Repository</h3>
-            <p>Review the repository and documentation directly.</p>
-            <a href="https://github.com/awindsor7912/billing-operations-management-system">Open GitHub Repo</a>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-shell">
-      <div>
-        <strong>Billing Operations Management System (BOMS)</strong>
-        <p>Workflow automation, process control, and operational visibility.</p>
-      </div>
-
-      <div class="footer-links">
-        <a href="https://awindsor7912.github.io/">Home</a>
-        <a href="https://www.linkedin.com/in/ashleydwindsor">LinkedIn</a>
-      </div>
+    <div class="footer-links">
+      <a href="https://awindsor7912.github.io/#home">Home</a>
+      <a href="https://www.linkedin.com/in/ashley-mcmillon-929799257/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
-  </footer>
-</body>
-</html>
+  </div>
+</footer>
